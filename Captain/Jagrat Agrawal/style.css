@@ -1,0 +1,69 @@
+.imageSectionfirstWall{
+    max-height: 100%;
+    max-width: 100%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.imageSectionSecondWall{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.main-Box{
+    display: flex;
+}
+.mainSection{
+    padding:0px 16px 0px 0px;
+}
+.section{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.06);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td{
+    text-decoration: none;
+    width: 150px;
+  }
+
+  section h2{
+    font-size: 14px;
+    color:grey;
+    font-weight: bold;
+  }
+
+  section p{
+    font-size: 12px;
+    color: grey;
+  }
