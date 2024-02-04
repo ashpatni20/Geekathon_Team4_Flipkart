@@ -89,15 +89,23 @@ span{
 /* owl Carousel banner */
 .banner-items{
     padding-top: 2%;
+}
 
+.items{
+    width: 99vw;
+    overflow: hidden;
+}
+
+.items > img{
+    height: 100%;
+    width: 100%;
 }
 /* Top Deals */
-.top_deals{
+/* .top_deals{
     padding: 2%;
     border: 1px solid purple;
-    /* width: 80%; */
 }
-.puma{
+.top_deals_container{
     border: 1px solid red;
     padding: 10px;
     width: 200px;
@@ -110,18 +118,64 @@ span{
     border: 1px solid black;
     display: flex;
 }
-.puma_img:hover{
+.top_deals_img_container:hover{
     scale: 1.1;
 }
-.puma_heading{
+.top_deals_heading{
     margin-top: 5px;
+}
+.HRX_img{
+    width: 100%;
+}
+.img_holder{
+    border: 2px solid green;
+}
+.Red_tape_img{
+    width: 100%;
+    height: 100%;
 }
 .bold{
     font-weight: bold;
-}
+} */
 .swipe_container{
     display: flex;
     justify-content: space-between;
+}
+.img_holder{
+    /* border: 2px solid orangered; */
+    height: 192px;
+    width: 192px;
+    overflow: hidden;
+}
+.img_holder > img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.top_deals{
+    /* border: 3px solid rebeccapurple; */
+    overflow-x: hidden;
+    overflow: scroll;
+    padding: 20px;
+}
+.top_deals::-webkit-scrollbar{
+    width: 0;
+}
+.top_deals_container{
+    /* padding-left: 100px; */
+    margin-left: 15px;
+    border: 2px solid black;
+}
+.img_holder > img:hover{
+    scale: 1.1;
+}
+.top_deals_imgs{
+    display: flex;
+    /* border: 2px solid salmon; */
+    text-align: center;
+    /* padding-right: 20px; */
+    gap: 5px;
 }
 .right_container{
     height: 400px;
