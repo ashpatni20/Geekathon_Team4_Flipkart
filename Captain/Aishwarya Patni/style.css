@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Arial' , sans-serif;
+    background-color: #f0f5ff;
     
 }
 
@@ -16,11 +17,19 @@ a{
     align-items: center;
     justify-content: space-between;
     margin-right: 120px;
-    padding: 20px 0 20px;
+    padding: 10px 0 10px;
     font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+.header-logo{
+    background-color: white;
 }
 .header-search{
     justify-content: space-around;
+    border-radius: 10px;
 }
 input[type="text"]{
     width: 500px;
@@ -45,12 +54,17 @@ input[type="text"]{
 }
 .material-symbols-outlined{
     gap: .2rem;
+    background-color: white;
+}
+a{
+    background-color: white;
 }
 .header-icons{
     display: flex;
     justify-content: space-evenly;
     flex-grow: .4;
     align-items: center;
+    background-color: white;
 
 }
 
@@ -159,6 +173,11 @@ span{
     overflow: scroll;
     padding: 20px;
 }
+.top_deals_heading{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
 .top_deals::-webkit-scrollbar{
     width: 0;
 }
@@ -182,4 +201,85 @@ span{
 }
 .right_img{
     height: 100%;
+    
 }
+
+/* Offer Banner third Section */
+.offersBanners{
+    padding-top: 5px;
+    /* width: 100%; */
+
+}
+.imgsBanner1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 40%; */
+    /* height: 35%; */
+    /* width: 100%; */
+    
+    
+}
+.imgsBanner1 img{
+    width: 100%;
+}
+.imgsBanner1 div{
+    width: 33%;
+}
+.section{
+    padding-right: 6px;
+}
+.left{
+    padding-left: 2px;
+}
+
+/* Fashion Best Bellers */
+.fashionHeader{
+    padding-top: 10px;
+}
+
+.fashionheading{
+    padding-bottom: 35px;
+}
+.fashionDemo{
+    overflow-x: hidden;
+}
+
+/* Gifts for Loved Ones */
+.giftsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.giftsRightCantainer{
+    border: 2px solid yellow;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.giftsRightCantainer img{
+    border: 2px solid red;
+}
+
+.imgRight{
+    border: 2px solid orange;
+    height: 200px;
+    width:  245px;
+}
+.imgRight img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.leftContainer{
+    border: 2px solid teal;
+    width: 65%;
+}
+.leftContainer img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
