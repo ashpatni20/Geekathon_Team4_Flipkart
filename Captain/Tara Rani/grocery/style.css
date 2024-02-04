@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(70, 113, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.grocery h1{
+    color: white;
+    
+
+}
+.search{
+    background-color: white;
+    padding: 8px;
+    width:500px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    box-shadow: -7px -7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+
+
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.loginBtn{
+    padding: 7px 14px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+
+}
+.link{
+    margin:0 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color: rgb(121, 119, 119);
+    font-size: small;
+}
+h3{
+    color: rgb(100, 99, 99);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  td{
+    text-decoration: none;
+    width: 150px;
+  }
+
+  
